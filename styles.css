@@ -139,6 +139,7 @@ scroll-behavior: smooth;
     top: 4rem;
 }
 
+/* Scroll to top button */
 #btnScrollToTop{
     position: fixed;
     right: 10px;
