@@ -16,36 +16,26 @@
   <title>PIKACHU</title>
   <script src="index.js"></script>
 </head>
-
 <body>
   <div class="div1">
-    <img id="main-pika" src="./assets/IMG 1.png" alt="" />
     <div class="d-flex align-items-center justify-content-center flex-column bg-text">
       <h1>Pikachu</h1>
       <h1>Pikachu</h1>
-      <h1>Pikachu</h1>
+
     </div>
 
     <div class="py-3 left-tab d-flex align-items-center justify-content-between flex-column float-start">
       <div class="top-name d-flex flex-column align-items-center justify-content-center">
-        <img src="./assets/images.png" alt="poke" width="50px" class="mb-5" />
-        <h4 class="rotate-text fw-bold">Pokemon</h4>
       </div>
       <div class="icons-div d-flex align-items-center justify-content-between flex-column">
-        <i class="fa-solid fa-circle-info"></i>
-        <i class="fa-solid fa-gamepad"></i>
-        <i class="fa-solid fa-clapperboard"></i>
+     
       </div>
       <div class="arrows d-flex">
         <div><button id="btnScrollToTop"> <i class="material-icons">arrow_upward </i></button>
-          <!-- <div class="circle">
-            <i class="fa-solid fa-chevron-up"></i>
-          </div>
-          <div class="circle">
-            <i class="fa-solid fa-chevron-down"></i>
-          </div> -->
         </div>
+        <div>
         <h3 class="fw-bold" id="pika-text">Pika..Pika..Pikachu!!!</h3>
+      </div>
       </div>
     </div>
   </div>
@@ -56,18 +46,13 @@
     <div class="py-3 left-tab d-flex align-items-center justify-content-between flex-column float-start">
       <div class="top-name d-flex flex-column align-items-center justify-content-center"></div>
       <div class="icons-div d-flex align-items-center justify-content-between flex-column">
+       <img src="data:image/png;base64,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" alt="poke" width="90px" height="90px"class="mb-5" />
         <i class="fa-solid fa-circle-info"></i>
         <i class="fa-solid fa-gamepad"></i>
         <i class="fa-solid fa-clapperboard"></i>
       </div>
       <div class="arrows d-flex">
         <div>
-          <!-- <div class="circle">
-            <i class="fa-solid fa-chevron-up"></i>
-          </div>
-          <div class="circle">
-            <i class="fa-solid fa-chevron-down"></i>
-          </div> -->
         </div>
       </div>
     </div>
@@ -104,9 +89,9 @@
 
   <!-- Footer -->
   <div class="footer py-5 d-flex justify-content-around align-items-start">
+
     <div class="d-flex align-items-center">
-      <img src="./assets/images.png" alt="" style="width: 40px" class="me-3" />
-      <h2 class="">Pokemon</h2>
+      <h2>POKEMON </h2>
     </div>
 
     <div class="d-flex justify-content-center flex-column align-items-center">
@@ -142,5 +127,4 @@
       });
     </script>
 </body>
-
 </html>
